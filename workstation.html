@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar with Bootstrap</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="work.css">
+  <script src="workjs.js"></script>
+
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
+    <div class="container">
+      <a class="navbar-brand" href="#">Trendify</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="#" onclick="createHomePage()">Home<span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" onclick="createShopPage()"">Mens</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" onclick="createCategoriesPage()">Womans</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" onclick="createContactPage()">kids</a>
+    </li>
+  </ul>
+</div>
+
+      </div>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Your content goes here -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+  <!-- Your content goes here -->
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar with Categories</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+
+   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://source.unsplash.com/1600x600/?clothing" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+          <a href="#" class="btn btn-primary btn-shop-now">Shop Now</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1600x600/?fashion" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+         
+          <br>
+          <a href="#" class="btn btn-primary btn-shop-now">Shop Now</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1600x600/?apparel" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+          <a href="#" class="btn btn-primary btn-shop-now">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <div class="container">
+    <!-- New Arrival Tag -->
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center">
+        <h2 class="new-arrival-tag">New Arrivals</h2>
+      </div>
+    </div>
+
+    <!-- Categories Buttons -->
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center">
+        <button class="btn category-btn">Ladies</button>
+        <button class="btn category-btn">Mens</button>
+        <button class="btn category-btn">Kids</button>
+        <button class="btn category-btn">Sportswear</button>
+        <button class="btn category-btn">Officewear</button>
+        <button class="btn category-btn">Formal</button>
+        <button class="btn category-btn">Casual</button>
+      </div>
+    </div>
+  </div>
+
+    <!-- Big Deals on Top Brands Paragraph -->
+    <p class="text-center display-4 text-black mt-4">Big Deals on Top Brands</p>
+
+
+  <div class="container mt-4">
+    <div class="row">
+      <!-- First Row of Cards -->
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="card shadow">
+          <img src="https://source.unsplash.com/400x300/?clothing" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Offer Price</h5>
+            <p class="card-text">Brand Name</p>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat this card structure for the next three cards -->
+
+      <!-- Second Row of Cards -->
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="card shadow">
+          <img src="https://source.unsplash.com/400x300/?fashion" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Offer Price</h5>
+            <p class="card-text">Brand Name</p>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat this card structure for the next three cards -->
+
+      <!-- Third Row of Cards -->
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="card shadow">
+          <img src="https://source.unsplash.com/400x300/?apparel" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Offer Price</h5>
+            <p class="card-text">Brand Name</p>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat this card structure for the next three cards -->
+
+      <!-- Fourth Row of Cards -->
+      <div class="col-md-6 col-lg-3 mb-4">
+        <div class="card shadow">
+          <img src="https://source.unsplash.com/400x300/?clothing" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Offer Price</h5>
+            <p class="card-text">Brand Name</p>
+          </div>
+        </div>
+      </div>
+      <!-- Repeat this card structure for the next three cards -->
+    </div>
+
+    <!-- Additional Rows of Cards -->
+    <div class="row">
+      <!-- Fifth Row of Cards -->
+      <!-- Repeat the card structure for the next four cards -->
+    </div>
+  </div
+
+<!-- Popup Trigger Button -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#popupModal">
+    50% Off Clothing Offer
+  </button>
+<center>
+  <!-- Popup Modal -->
+  <div class="modal fade" id="popupModal" tabindex="-1" role="dialog" aria-labelledby="popupModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="popupModalLabel">50% Off Clothing Offer</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Don't miss out on our exclusive clothing offer! Get 50% off on selected items for a limited time.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Shop Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </center>
+
+  <!-- Your content goes here -->
+
+    <!-- Banner Section -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://source.unsplash.com/1600x600/?clothes" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="display-4">Summer Offers</h5>
+          <p class="lead">Get ready for the summer season with our amazing deals! Explore a wide range of clothing items at discounted prices and make the most of your summer wardrobe.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1600x600/?apparel" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="display-4">Summer Offers</h5>
+          <p class="lead">Get ready for the summer season with our amazing deals! Explore a wide range of clothing items at discounted prices and make the most of your summer wardrobe.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1600x600/?fashion" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="display-4">Summer Offers</h5>
+          <p class="lead">Get ready for the summer season with our amazing deals! Explore a wide range of clothing items at discounted prices and make the most of your summer wardrobe.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="image-container">
+          <img src="https://source.unsplash.com/800x400/?sports,wear" alt="Sports Wear Offer 1">
+          <div class="offer-text">
+            <h3>Special Offer: Sports Wear</h3>
+            <p>Upgrade your workout wardrobe with our latest collection of sports wear. From comfortable activewear to stylish athleisure, we have everything you need to stay active and look great!</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="image-container">
+          <img src="https://source.unsplash.com/800x400/?sports,wear" alt="Sports Wear Offer 2">
+          <div class="offer-text">
+            <h3>Performance and Style</h3>
+            <p>Experience the perfect blend of performance and style with our premium sports wear. Designed to keep you comfortable and stylish during any activity.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="image-container">
+          <img src="https://source.unsplash.com/800x400/?sports,wear" alt="Sports Wear Offer 3">
+          <div class="offer-text">
+            <h3>Shop Now and Stay Active</h3>
+            <p>Don't miss out on our exclusive sports wear offer. Shop now and gear up for your next adventure!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+
+
+  
+  <!-- Footer -->
+  <footer class="footer mt-auto py-3">
+    <div class="container">
+      <div class="row">
+        <!-- Contact Information -->
+        <div class="col-md-4 col-sm-12 mb-4">
+          <h5>Contact Us</h5>
+          <ul class="list-unstyled">
+            <li>Porur chennai 600057</li>
+            <li>Email: trendyfy@clothingstore.com</li>
+            <li>Phone: (123) 456-7890</li>
+          </ul>
+        </div>
+        <!-- Quick Links -->
+        <div class="col-md-4 col-sm-12 mb-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <!-- Social Media Links -->
+        <div class="col-md-4 col-sm-12 mb-4">
+          <h5>Follow Us</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Pinterest</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="mb-0">&copy; 2024 Clothing Shop. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+  
+
+
+
+   <script>
+  function createHomePage() {
+    // Redirect to the home page
+    window.location.href = 'home.html';
+  }
+
+  function createShopPage() {
+    // Redirect to the shop page
+    window.location.href = 'shop.html';
+  }
+
+  function createCategoriesPage() {
+    // Redirect to the categories page
+    window.location.href = 'categories.html';
+  }
+
+  function createContactPage() {
+    // Redirect to the contact page
+    window.location.href = 'contact.html';
+  }
+</script>
+
+  
+ 
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
